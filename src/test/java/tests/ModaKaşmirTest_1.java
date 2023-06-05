@@ -31,7 +31,7 @@ public class ModaKaşmirTest_1 {
         loginButton.click();
 
         //siteye giriş yapmadan da search yapılabildiği için, login olduktan sonra bekleme süresi ekledim.
-        Thread.sleep(4000); //çok uğraştım seninle pikaççu ama oldun TEBRİK KENDİME:)
+        Thread.sleep(4000); //artık unutmam fazlaca uğraştım.
 
         WebElement searchInput=driver.findElement(new By.ByCssSelector("input#live-search"));
         searchInput.sendKeys("Twill Eşarp");

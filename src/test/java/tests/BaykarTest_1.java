@@ -40,6 +40,6 @@ public class BaykarTest_1 {
         passwordLogin.sendKeys("xyz");
 
 
-        //capctha işaretleyemiyorum google gömmüş sanırım bu yüzden daha fazla ilerleyemiyorum Baykar' da Allahımmmm deli olacağum.
+        //capctha işaretleyemiyorum google gömmüş sanırım bu yüzden daha fazla ilerleyemiyorum ama illaki capcta atlatma yolu vardır öğrenip ekleyeceğim.
     }
 }

@@ -21,7 +21,7 @@ public class TrendyolArama1 {
 
         WebElement kapatReklam = driver.findElement(new By.ByCssSelector("#gender-popup-modal > div > div > div.modal-close"));
         kapatReklam.click();
-//çerezleri açan tabı kapatmak için yazdım fakat çerezleri iptal için de bir kod bloğu var.
+//çerezleri açan tabı kapatmak için yazdım fakat çerezleri iptal için de bir kod bloğu var. Fakat buraya henüz eklemedi.
 //        WebElement kapatAlt=driver.findElement(new By.ByCssSelector("button#onetrust-accept-btn-handler"));
 //        kapatAlt.click();
 

@@ -52,7 +52,7 @@ public class TrendyolArama1 {
         WebElement isaretleMarka=driver.findElement(new By.ByCssSelector("#sticky-aggregations > div > div:nth-child(2) > div.fltrs > div > div > div > div > a > div.chckbox"));
         isaretleMarka.click();
 
-//        sayfa kaydırmak için kullanılan bir bloktur ama yavaş yavaş ilerletmiyor scrollBy değerine göre birden ilerletiyor
+//        sayfa kaydırmak için kullanılan bir bloktur ama yavaş yavaş ilerletmiyor scrollBy değerine göre birden ilerletiyor. benim amacım testte sayfa yavaş yavaş ilerletilmesi onu da araştırıp ekleyeceğim.
 //        JavascriptExecutor j = (JavascriptExecutor) driver;
 //        j.executeScript("window.scrollBy(0,5000)");
 

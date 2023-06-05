@@ -18,7 +18,6 @@ public class YouTubeTest1 {
         String expectedNumber="kayıtlı olduğunuz telefon numarası ıgiriniz";
         String enteredNumber="herhangi bir sayısını yanlış girip deneyiniz";
 
-        //login olmak için tüm yolları denedim fakat kabul etmedi. sanırım baykarda olduğu gibi burada da izin verilmiyor
         WebElement telWithLogin=driver.findElement(By.id("identifierId"));
         telWithLogin.sendKeys(enteredNumber);
         if (expectedNumber.contentEquals(enteredNumber)){
